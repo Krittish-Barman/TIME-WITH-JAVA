@@ -1,0 +1,11 @@
+//Write a java program to add 2 integer values.
+class add
+{
+    public static void main(String[]args)
+    {
+        int a=9,b=2,c;
+        c=a+b;
+        System.out.print("the sum is:"+c);
+    }
+}
+

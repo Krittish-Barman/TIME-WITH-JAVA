@@ -1,0 +1,20 @@
+//Write a java program on continue and break.
+import java.util.*;
+class continue_loop {
+    public static void main(String[] args) {
+        int n,i;
+        System.out.println("enter the number");
+        Scanner sc=new Scanner(System.in);
+         n=sc.nextInt();
+        for(i=1;i<n;i++)
+        {
+            if(i>4 && i<9)
+          { 
+              continue;
+          }
+            if(i==13)
+            break;
+            System.out.println("\t"+i);
+       }
+}
+}

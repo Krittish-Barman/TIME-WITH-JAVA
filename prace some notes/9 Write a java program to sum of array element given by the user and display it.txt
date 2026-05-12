@@ -1,0 +1,21 @@
+//Write a java program to sum of array element given by the user and display it.
+import java.util.*;
+class array_sum{
+    public static void main(String[]args){
+    int i,size,sum=0;
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the size=");
+    size=sc.nextInt();
+    int arr[]=new int[size];
+    for(i=0;i<arr.length;i++)
+    {
+        System.out.println("Enter the sum value=");
+        arr[i]=sc.nextInt();
+    }
+    for(i=0;i<arr.length;i++)
+    {
+        sum+=arr[i];
+    }
+            System.out.println("sum="+sum);
+}
+}

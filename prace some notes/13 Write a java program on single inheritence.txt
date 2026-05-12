@@ -1,0 +1,25 @@
+//Write a java program on single inheritence.
+import java.util.*;
+class a {
+    int sum(int x,int y){
+        int add=x+y;
+        return add;
+    }
+}
+class b extends a{
+    int sum(int x,int y,int z)
+    {
+        int add=x+y+z;
+        return add;
+    }
+}
+class c{
+    public static void main(String[]args)
+    {
+        b obj=new b();
+        int a=obj.sum(5,6);
+        int b=obj.sum(5,6,9);
+        System.out.println("The first add="+a);
+        System.out.println("The second add="+b);
+    }
+}

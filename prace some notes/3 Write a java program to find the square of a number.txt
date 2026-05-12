@@ -1,0 +1,10 @@
+//Write a java program to find the square of a number.
+class Square
+{
+public static void main(String[]args)
+{
+int a=9,Square;
+Square=a*a;
+System.out.println("Square of the number is:"+Square);
+}
+}

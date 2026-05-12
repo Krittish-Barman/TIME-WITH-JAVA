@@ -1,0 +1,24 @@
+//Write a java program to reverse an array and display it.
+import java.util.*;
+public class Reverse_array  {
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        int i,size;
+        System.out.print("Enter the size= ");
+        size=sc.nextInt();
+        int[] arr= new int[size];
+        for(i=0; i<size; i++)   {
+            System.out.print("Enter the element= ");
+            arr[i]=sc.nextInt();
+        }
+        System.out.println("Original Array:");
+        for(i=0;i<size;i++)  {
+         System.out.print(arr[i]+"  ");
+        }
+        System.out.println();
+        System.out.println("Reverse Array:");
+        for(i=size-1;i>=0;i--)   {
+         System.out.print(arr[i]+"  ");
+        }
+    }
+}

@@ -1,0 +1,20 @@
+//Write a java program using recursion,find the factorial of a given number.
+import java.util.*;
+class factorial{
+    int fact(int n){
+        int result;
+        if(n==1)
+        return 1;
+        result=n*fact(n-1);
+        return result;
+    }
+    public static void main(String[]args){
+    int num,n;
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the fact value=");
+    num=sc.nextInt();
+    factorial obj=new factorial();
+    n=obj.fact(num);
+    System.out.println(n);
+    }
+}
